@@ -19,13 +19,13 @@
                                 <a href="https://www.facebook.com/zeatzijs" target="_blank"><i class="fab fa-facebook-square animate__animated animate__bounceIn animate__delay-2s"></i></a>
                                 <a href="https://twitter.com/keeethus" target="_blank"><i class="fab fa-twitter animate__animated animate__bounceIn animate__delay-3s"></i></a>
                                 <a href="https://discord.com/channels/@me/keethus#6634" target="_blank"><i class="fab fa-discord animate__animated animate__bounceIn animate__delay-4s"></i></a>
-                                <a href="https://github.com/keethus" target="_blank"><i class="fab fa-github animate__animated animate__bounceIn animate__delay-5s"></i></a>
-                            </div>
+                                <a  href="https://github.com/keethus" target="_blank"><i class="fab fa-github animate__animated animate__bounceIn animate__delay-5s"></i></a>
+                        </div>
                         </div>
                     </div>
                 </div>
                 <div class="col animate__animated animate__pulse animate__infinite">
-                    <img class="landing-me " src="{{secure_asset('images/landing-me.JPG')}}" alt="" width="400" height="400" >
+                    <img class="landing-me " src="{{asset('images/landing-me.jpg')}}" alt="" width="400" height="400" >
                 </div>
             </div>
         </div>
