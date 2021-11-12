@@ -31,7 +31,7 @@
 
                 <!--Branding-->
                 <a href="/" class="navbar-brand">
-                    <img src="{{asset('images/logo-dark.png')}}"  width="131" height="25" class="d-inline-block align-top" alt="">
+                    <img src="{{secure_asset('images/logo-dark.png')}}"  width="131" height="25" class="d-inline-block align-top" alt="">
                 </a>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
