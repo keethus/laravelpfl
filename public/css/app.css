@@ -10027,6 +10027,10 @@ h3 {
   --animate-delay: 0.5s;
 }
 
+.bg-dark {
+  background-color: #303030;
+}
+
 .navbar-brand {
   font: 100% "Nunito", sans-serif;
   font-weight: 700;
@@ -10175,4 +10179,37 @@ ul.navbar-nav a:hover {
   .landing-box {
     flex-direction: row;
   }
+}
+.about-full-name {
+  font-size: 40px;
+  color: #38c172;
+  font-weight: 800;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+.about-location {
+  font-size: 20px;
+  color: white;
+  font-weight: 200;
+}
+
+.about-icons {
+  color: white;
+  font-size: 20px;
+  padding-right: 10px;
+}
+
+.about-info-section {
+  padding-top: 3em;
+}
+
+.about-info-text {
+  color: white;
+  font-size: 20px;
+  font-style: italic;
+}
+
+.about-animation {
+  float: right;
+  margin-top: -5em;
 }

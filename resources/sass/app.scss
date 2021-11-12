@@ -13,8 +13,11 @@
 
 :root {
     --animate-delay: 0.5s;
-  }
+}
 
+.bg-dark{
+    background-color: #303030;
+}
 // Navigation starts
 .navbar-brand {
     font: 100% $font-nunito;
@@ -39,14 +42,14 @@ ul.navbar-nav a {
 ul.navbar-nav a:hover {
     color: $accentColor !important;
     text-shadow: 1px 1px 2px rgba(150, 150, 150, 0.4);
-    
+
 }
 .active-nav{
     color: $accentColor !important;
     text-shadow: 1px 1px 2px rgba(150, 150, 150, 0.4);
     border-bottom: 2px solid $accentColor !important;
     padding-bottom: 15px;
-    
+
 }
 .navbar {
     padding-bottom: 0px;
@@ -96,7 +99,7 @@ ul.navbar-nav a:hover {
 .landing-me{
     border-radius:50%;
     float:right;
-    -webkit-box-shadow: 0px 2px 17px 1px rgba(0,0,0,0.61); 
+    -webkit-box-shadow: 0px 2px 17px 1px rgba(0,0,0,0.61);
     box-shadow: 0px 2px 17px 1px rgba(0,0,0,0.61);
     animation: rotation 20s infinite linear;
 }
@@ -134,7 +137,7 @@ ul.navbar-nav a:hover {
     }
  }
 
- @media (max-width: 768px) { 
+ @media (max-width: 768px) {
     .landing-me {
         width:200px;
         height: 200px;
@@ -146,3 +149,38 @@ ul.navbar-nav a:hover {
         flex-direction: row;
     }
  }
+
+// About Section Starts
+.about-full-name{
+    font-size: 40px;
+    color: $accentColor;
+    font-weight: 800;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+}
+.about-location{
+    font-size:20px;
+    color: white;
+    font-weight: 200;
+
+}
+.about-icons {
+    color: white;
+    font-size: 20px;
+    padding-right: 10px;
+}
+.about-info-section {
+    padding-top: 3em;
+}
+.about-info-text {
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+}
+.about-animation{
+    float:right;
+    margin-top: -5em;
+}
+
+
+
+// About Section Ends
