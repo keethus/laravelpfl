@@ -25,7 +25,7 @@
                     </div>
                 </div>
                 <div class="col animate__animated animate__pulse animate__infinite">
-                    <img class="landing-me " src="{{secure_asset('images/landing-me.jpg')}}" alt="" width="400" height="400" >
+                    <img class="landing-me " src="{{asset('images/landing-me.jpg')}}" alt="" width="400" height="400" >
                 </div>
             </div>
         </div>
