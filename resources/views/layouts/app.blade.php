@@ -10,20 +10,20 @@
     <title>{{ config('app.name', 'keethus') }}</title>
 
     <!-- Scripts -->
-    <script src="{{ asset('js/app.js') }}" defer></script>
+    <script src="{{ URL::asset('js/app.js') }}" defer></script>
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
 
     <!-- Styles -->
-    <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ URL::asset('css/app.css') }}" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body>
 
-    
+
         <!--Navbar-->
         <nav class="navbar navbar-light navbar-expand-md bg-white">
             <div class="container">
@@ -36,7 +36,7 @@
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse">
                     <img src="https://img.icons8.com/material-outlined/24/000000/menu--v3.png"/>
                 </button>
-                
+
                 <!--Navigation-->
                 <div id="navbarCollapse" class="collapse navbar-collapse">
                     <ul class="navbar-nav ml-auto text-center">
@@ -50,9 +50,9 @@
             </div>
         </nav>
 
-        
+
         @yield('content')
-        
-    
+
+
 </body>
 </html>
